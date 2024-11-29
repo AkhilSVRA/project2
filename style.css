@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+     padding: 0;
+}
+body{
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'poppins',sans-serif;
+    background-image: url(thumbbig-1380434.webp);
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.wrapper{
+    width: 450px;
+    
+    border: 2px solid white;
+    backdrop-filter: blur(20px);
+}
+.wrapper h1{
+    text-align: center;
+    text-transform: uppercase;
+    padding: 40px 50px;
+    
+    
+}
+.wrapper .input-form{
+    position: relative;
+    width: max-content;
+    height: 50px;
+    width: 100%;
+    margin: 30px 0;
+    /* padding-right: 20px; */
+    
+    
+}
+
+.input-form input{
+   
+    text-align: 50px;
+    width: 90%;
+    height: 100%;
+    border: 2px solid #000;
+    border-radius: 40px;
+    background: transparent;
+    border-radius: 40px;
+    font-size: 15px;
+    color: black;
+    padding-left: 10px;
+    
+    
+}
+.forgot-password{
+    text-align: right;
+}
+button{
+    background-color: #2dc332;
+    width: 150px;
+    height: 50px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.icons{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    
+}
+.input-form i {
+    position: absolute;
+    right: 50px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 25px;
+}
+.wrapper .btn{
+    width: 100%;
+}
+.forgot-password{
+    padding-bottom: 30px;
+    
+}
